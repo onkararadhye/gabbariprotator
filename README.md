@@ -1,7 +1,7 @@
 
-# 🚀 GabbarIPChanger V-1.0 - Tor-Based IP Rotator
+# 🚀 GabbarIPRotator V-1.0 - Tor-Based IP Rotator
 
-**GabbarIPChanger** is a Bash-based tool that automatically changes your public IP address using the Tor network at custom intervals. It allows you to appear from different countries by rotating IPs through Tor circuits.
+**GabbarIPRotator** is a Bash-based tool that automatically changes your public IP address using the Tor network at custom intervals. It allows you to appear from different countries by rotating IPs through Tor circuits.
 
 > ⚠️ Requires root privileges.  
 > ⚠️ Works only if Tor is installed and configured correctly.
@@ -25,8 +25,8 @@
 Clone this repository and run the script:
 
 ```bash
-git clone https://github.com/yourname/GabbarIPChanger.git
-cd GabbarIPChanger
+git clone https://github.com/onkararadhye/gabbariprotator.git
+cd gabbariprotator
 chmod +x gabbar.sh
 sudo ./gabbar.sh
 ```
@@ -126,7 +126,7 @@ Use `sudo` to run it. Do **not** run as a regular user.
 
 ## 👤 Author
 
-**Aradhye Aradhye**  
+**Onkar Aradhye**  
 Ethical Hacker | Android Dev | Linux Enthusiast
 
 📧 onkararadhye.2004@gmail.com  
@@ -141,7 +141,7 @@ MIT License
 ```
 MIT License
 
-Copyright (c) 2025 Aradhye
+Copyright (c) 2025 Onkar Aradhye
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the “Software”), to deal
