@@ -48,7 +48,6 @@ sudo ./gabbar.sh
 
 Then follow the prompts:
 
-- **Enter password**: This is for Tor's ControlPort (`HashedControlPassword` must be set in `torrc`)
 - **Enter interval (in seconds)**: Time between IP changes
 - **Enter number of changes**: `0` = infinite
 
@@ -61,33 +60,6 @@ Then follow the prompts:
 ⏳ Waiting 10 seconds...
 ```
 
----
-
-## 🔒 Tor Configuration
-
-Before using this tool, ensure your Tor config is set correctly:
-
-Edit `/etc/tor/torrc` and ensure these lines exist:
-
-```bash
-ControlPort 9051
-HashedControlPassword <generated_hash>
-CookieAuthentication 0
-```
-
-To generate a password hash:
-
-```bash
-tor --hash-password your_password
-```
-
-Paste the output in the torrc file under `HashedControlPassword`.
-
-Restart Tor:
-
-```bash
-sudo service tor restart
-```
 
 ---
 
